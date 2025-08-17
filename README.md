@@ -33,7 +33,7 @@ Bagian khusus untuk Tentang, Keterampilan, Proyek, dan Kontak
 
 Clone repository ini:
 
-git clone https://github.com/username/portfolio.git
+git clone https://github.com/novitaintann/portofolio_website.git
 
 
 Masuk ke folder project:
