@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Novita Intan Nur Rohmah</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Creative<span>Portfolio</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <!-- <li><a href="#achievements">Achievements</a></li> -->
+        <li><a href="#contact" class="btn">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h3>Hallo 👋</h3>
+      <h1>Saya <span>Novita Intan Nur Rohmah</span></h1>
+      <p>
+        Mahasiswa Aktif Universitas Duta Bangsa Surakarta  
+        Prodi Sistem Informasi angkatan 2023.  
+        Saat ini saya sedang belajar pemrograman & desain UI/UX.
+      </p>
+      <div class="hero-btns">
+        <a href="#" class="btn">Download CV</a>
+        <a href="#portfolio" class="btn-secondary">Lihat Portofolio</a>
+      </div>
+      <div class="socials">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="assets/profil.png" alt="Profile">
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2>Tentang Saya</h2>
+      <p>Saya memiliki ketertarikan pada pengembangan web dan aplikasi mobile. Berfokus pada desain yang bersih, fungsional, dan user-friendly.</p>
+    </div>
+    <!-- <img src="assets/aboutme.png" alt="Foto Saya"> -->
+  </section>
+
+
+  <!-- Education -->
+  <section class="education" id="education">
+    <h2>Education</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Universitas Duta Bangsa Surakarta</h3>
+        <p>S1 Sistem Informasi (2023 - sekarang)</p>
+      </div>
+      <div class="card">
+        <h3>SMA Negeri 1 Purwantoro</h3>
+        <p>Jurusan MIPA (2019 - 2022)</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+    <h2>Skills & Tools</h2>
+    <div class="skills-grid">
+        <div class="skill-item">
+        <img src="assets/icons/html.png" alt="HTML">
+        <p>HTML</p>
+        </div>
+        <div class="skill-item">
+        <img src="assets/icons/css.png" alt="CSS">
+        <p>CSS</p>
+        </div>
+        <div class="skill-item">
+        <img src="assets/icons/figma.png" alt="Figma">
+        <p>Figma</p>
+        </div>
+        <div class="skill-item">
+        <img src="assets/icons/flutter.png" alt="Flutter">
+        <p>Flutter</p>
+        </div>
+        <div class="skill-item">
+        <img src="assets/icons/canva.png" alt="Canva">
+        <p>Canva</p>
+        </div>
+    </div>
+    </section>
+
+
+  <!-- Portfolio -->
+  <section class="Projects" id="projects">
+    <h2>Projects</h2>
+    <div class="portfolio-grid">
+
+        <!-- Project 1 -->
+        <div class="portfolio-item">
+        <img src="assets/portofolio/listify/listify.png" alt="To Do List App">
+        <h3>To-Do List App</h3>
+        <p>Aplikasi produktivitas berbasis Flutter (UAS, 2025).</p>
+        <a href="#portfolio1" class="btn">View Details</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item">
+        <img src="assets/portofolio/florist/about.png" alt="Florist App">
+        <h3>Florist Website</h3>
+        <p>Website e-commerce berbasis HTML dan CSS untuk toko bunga (UTS, 2025).</p>
+        <a href="#portfolio2" class="btn">View Details</a>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- Popup Project 1 -->
+    <div id="portfolio1" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>To-Do List App</h2>
+        <p>Aplikasi Flutter dengan Supabase untuk manajemen tugas dan habit tracker.</p>
+        
+        <div class="popup-images">
+          <img src="assets/portofolio/listify/poster.png" alt="To Do List Screenshot">
+          <img src="assets/portofolio/listify/homepage.png" alt="HomePage Screenshot">
+          <img src="assets/portofolio/listify/pomodoro.png" alt="Pomodoro Screenshot">
+        </div>
+      </div>
+    </div>
+
+        <!-- Popup Project 2 -->
+    <div id="portfolio2" class="popup">
+      <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h2>Florist Website</h2>
+        <p>Website e-commerce berbasis HTML dan CSS untuk toko bunga (UTS, 2025).</p>
+
+        <div class="popup-images">
+          <img src="assets/portofolio/florist/about.png" alt="Florist App Screenshot">
+          <img src="assets/portofolio/florist/checkout.png" alt="Check Out Screenshot">
+          <img src="assets/portofolio/florist/produk.png" alt="Produk Screenshot">
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+    <h2>Experience</h2>
+    <div class="experience-grid">
+
+        <!-- Card 1 -->
+        <div class="experience-card">
+        <img src="assets/experience/expo/forbar.png" alt="PDD Kampus Expo" class="experience-img">
+        <h3>PDD Kampus Expo</h3>
+        <p>Panitia Divisi Dokumentasi & Desain</p>
+        <a href="#exp1" class="btn-detail">View Details</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="experience-card">
+        <img src="assets/experience/ldk/ldk2.png" alt="MC LDK Fikom" class="experience-img">
+        <h3>MC LDK Fikom 2024/2025</h3>
+        <p>Master of Ceremony</p>
+        <a href="#exp2" class="btn-detail">View Details</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="experience-card">
+        <img src="assets/experience/kuliah_pakar/mc.png" alt="Kuliah Pakar" class="experience-img">
+        <h3>Kuliah Pakar</h3>
+        <p>MC Kuliah Pakar SI 2025</p>
+        <a href="#exp3" class="btn-detail">View Details</a>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- Tambahan Experience tanpa popup -->
+    <h3 class="extra-title">Other Experiences</h3>
+    <div class="experience-grid">
+
+      <!-- Card 4 -->
+      <div class="experience-card">
+        <h3>Sie PDD Webinar Data Science</h3>
+        <p>Ikut serta sebagai panitia di kegiatan webinar Data Science HMP SI tahun 2024.</p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="experience-card">
+        <h3>Top 5 TDC ITS 2024</h3>
+        <p>Peserta Top 5 TDC ITS 2024 dalam kompetisi ide bisnis "Heyra"</p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="experience-card">
+        <h3>MC Seminar Proposal Skripsi</h3>
+        <p>Master of Ceremony di acara Seminar Proposal Skripsi mahasiswa tingkat akhir.</p>
+      </div>
+      
+      <!-- Card 5 -->
+      <div class="experience-card">
+        <h3>MC Visualisasi Data</h3>
+        <p>Menjadi MC di acara Visualisasi Data SI tahun 2024.</p>
+      </div>
+      
+      <!-- Card 5 -->
+      <div class="experience-card">
+        <h3>MC Seminar Data Science HMPSI 2024</h3>
+        <p>Menjadi MC di acara Seminar Data Science HMPSI 2024.</p>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- Popup Detail 1 -->
+    <div id="exp1" class="popup">
+    <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h3>PDD Kampus Expo</h3>
+        <p>Berperan sebagai Panitia Divisi Dokumentasi & Desain di acara kampus expo yang diadakan di SMA pada tahun 2024. Membuat poster, dokumentasi kegiatan, serta membantu publikasi acara.</p>
+    </div>
+    </div>
+
+    <!-- Popup Detail 2 -->
+    <div id="exp2" class="popup">
+    <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h3>MC LDK Fikom 2024/2025</h3>
+        <p>Menjadi MC di acara LDK Fikom 2024/2025. Mengatur jalannya acara agar tetap kondusif dan sesuai rundown.</p>
+    </div>
+    </div>
+
+    <!-- Popup Detail 3 -->
+    <div id="exp3" class="popup">
+    <div class="popup-content">
+        <a href="#" class="close">&times;</a>
+        <h3>MC Kuliah Pakar</h3>
+        <p>Menjadi MC di acara Kuliah Pakar SI 2025. Memandu acara dari awal sampai akhir.</p>
+    </div>
+    </div>
+
+
+
+  <!-- Contact -->
+  <footer id="contact">
+    <h2>Kontak</h2>
+    <p>Email: novitaaintann28@gmail.com</p>
+    <p>Phone: +62 895-3369-xxxxx</p>
+    <p>LinkedIn: https://www.linkedin.com/in/novitaaintann</p>
+  </footer>
+
+</body>
+</html>
